@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/incremental-reading-app/static/css/main.8d5624b0.css",
+    "main.js": "/incremental-reading-app/static/js/main.4988773a.js",
+    "static/js/787.a3a89a98.chunk.js": "/incremental-reading-app/static/js/787.a3a89a98.chunk.js",
+    "index.html": "/incremental-reading-app/index.html",
+    "main.8d5624b0.css.map": "/incremental-reading-app/static/css/main.8d5624b0.css.map",
+    "main.4988773a.js.map": "/incremental-reading-app/static/js/main.4988773a.js.map",
+    "787.a3a89a98.chunk.js.map": "/incremental-reading-app/static/js/787.a3a89a98.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d5624b0.css",
+    "static/js/main.4988773a.js"
+  ]
+}
