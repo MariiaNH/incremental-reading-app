@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: center;
+
+  background-color: $colorSecondMain;
+  height: 150px;
+  color: $colorAccentSecond;
+  font-size: 60px;
+
+  &_title {
+    padding: 30px;
+    margin: 0;
+  }
+}

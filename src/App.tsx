@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { FC, useState } from 'react';
+import Header from './COMPONENTS/Header';
+import Navigation from './COMPONENTS/Navigation';
+import Filter from './COMPONENTS/Filter';
+import Catalog from './COMPONENTS/Catalog';
+import { CatalogItemType } from './TYPES/CatalogItem';
+import ScreenBackground from './COMPONENTS/screenBackground';
 
-function App() {
+const App: FC = () => {
+  const [items] = useState<CatalogItemType[]>([]);                      
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <ScreenBackground />
+      {/* <Header />
+      <Navigation />
+      <Filter />
+      <Catalog items={items} /> */}
+      
     </div>
   );
 }

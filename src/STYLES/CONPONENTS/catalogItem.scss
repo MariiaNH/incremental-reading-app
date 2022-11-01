@@ -1,0 +1,39 @@
+.card {
+  box-sizing: border-box;
+  padding: 16px;
+  width: 200px;
+
+  border: 1px solid #f3f3f3;
+
+  &__product-image {
+    display: block;
+    width: 160px;
+    height: 134px;
+    margin: 16px 3px 40px;
+  }
+
+  &__discription {
+    margin-bottom: 4px;
+    font-weight: 500;
+  }
+
+  &__code {
+    margin-bottom: 16px;
+
+    font-size: 10px;
+    line-height: 14px;
+    color: $colorLight;
+  }
+
+  &__feedback {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    align-items: center;
+  }
+
+  &__responses {
+    font-size: 10px;
+    line-height: 14px;
+  }
+}
