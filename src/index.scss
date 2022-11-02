@@ -1,11 +1,12 @@
 @import './STYLES/UTILS/variables';
+@import './STYLES/UTILS/mixins';
 @import './STYLES/CONPONENTS/header.scss';
 @import './STYLES/CONPONENTS/app.scss';
 @import './STYLES/CONPONENTS/catalog.scss';
 @import './STYLES/CONPONENTS/catalogItem.scss';
 @import './STYLES/CONPONENTS/navigation.scss';
 @import './STYLES/CONPONENTS/button.scss';
-@import './STYLES/CONPONENTS/screenBackground.scss';
+@import './STYLES/CONPONENTS/StarsForBackground.scss';
 
 body {
   margin: 0;
@@ -15,7 +16,6 @@ body {
     font-size: 60;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: $colorMain;
   color: $colorLight;
 }
 

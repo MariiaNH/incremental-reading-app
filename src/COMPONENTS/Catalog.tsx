@@ -25,18 +25,6 @@ const Catalog: FC<Props> = ({ items }) =>  {
     <CatalogItem />
     <CatalogItem />
     <CatalogItem />
-    <CatalogItem />
-    <CatalogItem />
-    <CatalogItem />
-    <CatalogItem />
-    <CatalogItem />
-    <CatalogItem />
-    <CatalogItem />
-    <CatalogItem />
-    <CatalogItem />
-    <CatalogItem />
-    <CatalogItem />
-    <CatalogItem />
 
     </div>
   );

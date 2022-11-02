@@ -3,9 +3,9 @@ import { Button } from '../TYPES/Button';
 import NavButton from './NavButton';
 
 const buttons: Button[] = [
-  {name: 'unsorted'},
-  {name: 'recommended' },
-  {name: 'current'},
+  {name: 'all'},
+  {name: 'for you' },
+  {name: 'yours'},
 ];
 
 const Navigation = () => {

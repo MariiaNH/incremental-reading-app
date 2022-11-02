@@ -4,17 +4,17 @@ import Navigation from './COMPONENTS/Navigation';
 import Filter from './COMPONENTS/Filter';
 import Catalog from './COMPONENTS/Catalog';
 import { CatalogItemType } from './TYPES/CatalogItem';
-import ScreenBackground from './COMPONENTS/screenBackground';
+import StarsForBackground from './COMPONENTS/screenBackground';
 
 const App: FC = () => {
   const [items] = useState<CatalogItemType[]>([]);                      
   return (
     <div className="app">
-      <ScreenBackground />
-      {/* <Header />
+      <StarsForBackground />
+      <Header />
       <Navigation />
       <Filter />
-      <Catalog items={items} /> */}
+      <Catalog items={items} />
       
     </div>
   );

@@ -1,22 +1,13 @@
 import React from 'react';
 
-const ScreenBackground = () => {
+const StarsForBackground = () => {
   return (
-    <div className="ScreenBackground">
+    <div className="StarsForBackground">
     <div id="stars"></div>
     <div id="stars2"></div>
-    <div id="stars3"></div>
-    <div id="title">
-      <span>
-        PURE CSS
-      </span>
-      <br />
-      <span>
-         PARALLAX PIXEL STARS
-      </span>
-    </div>
+    <div id="stars3"></div> 
   </div>
   );
 };
 
-export default ScreenBackground;
+export default StarsForBackground;

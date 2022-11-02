@@ -3,19 +3,19 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  width: 250px;
+  width: 150px;
   height: 56px;
   text-decoration: none;
-
-  font-size: 16px;
-  line-height: 27px;
-  background: $colorAccentSecond;
-  color: $colorMain;
   border-radius: 40px;
-
   cursor: pointer;
 
   transition: box-shadow 0.3s;
+
+  @include backgroundGradient;
+
+  font-size: 30px;
+  letter-spacing: 2px;
+  // text-transform: uppercase;
 
   &:hover {
     box-shadow: 1px 4px 16px rgba(232, 232, 240, 0.4);
