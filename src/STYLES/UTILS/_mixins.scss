@@ -1,0 +1,15 @@
+@mixin backgroundGradient {
+  background: -webkit-linear-gradient($colorWhite, $colorGrey);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin accentText {
+  margin: 0;
+  color: $colorWhite;
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
